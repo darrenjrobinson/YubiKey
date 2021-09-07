@@ -8,6 +8,8 @@ Utilises the [Yubico desktop .NET SDK](https://github.com/Yubico/Yubico.NET.SDK)
 
 Contains v4.0.30319 of the compiled libraries.
 
+[Associated Blogpost](https://blog.darrenjrobinson.com/get-certificates-from-a-yubikey-using-powershell)
+
 ## Features
 
 - Works with PowerShell (6.x, 7.x). *Not compatibile with Windows PowerShell (e.g v5.1)*
