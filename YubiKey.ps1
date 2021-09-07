@@ -10,7 +10,7 @@ if ((Test-Path -Path .\Yubico.YubiKey.dll) -and (Test-Path -Path .\Yubico.Core.d
     }
 }
 else {
-    Write-Error "The required 'Yubico.YubiKey.dll' is missing from the current directory!" 
+    Write-Error "The required 'Yubico.YubiKey.dll' or 'Yubico.Core.dll' is missing from the current directory!" 
     break 
 }
 
